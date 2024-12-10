@@ -17,7 +17,15 @@
         margin: 15px 40px 0 0;  
     }
    
-    
+    .btn { 
+        padding: 10px 60px;
+        text-transform: uppercase;
+      
+    }
+    .social-networks {
+        gap: 0px;
+      
+    }
 }
 
    /* desk width */  
@@ -33,7 +41,7 @@
     .recipe-video {
         height: 36vw;
         flex-basis: 65%;
-        
+
     }
     .recipe-info {
         flex-basis: 35%;
