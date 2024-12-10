@@ -1,10 +1,31 @@
 /* Soluzione qui */
- @media screen and ( min-width:768px){
+ /* tablet width */
+@media screen and ( min-width:768px) and (max-width:992px) {
+   
+    .recipe-name::after {
+       content:"(Dolce Tradizionale)";
+       
+    }    
+
+    .quick-notes ul{
+       display: flex;
+       flex-wrap: wrap;
+       gap:10px;
+    }
+    .quick-notes li {
+        
+        margin: 15px 40px 0 0;  
+    }
    
 
 }
 
+   /* desk width */  
+
 @media screen and ( min-width:992px){
-   
+    .recipe-name::after {
+        content:"(Dolce Tradizionale)";
+       
+     }
 
 }
