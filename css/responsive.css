@@ -18,19 +18,26 @@
     }
    
     .btn { 
-        padding: 10px 60px;
-        text-transform: uppercase;
+        padding: 10px 55px;
+       
       
     }
+    /* social-networks */
     .social-networks {
         gap: 0px;
       
+    }
+    
+    .ads{
+        display: block;
     }
 }
 
    /* desk width */  
 
 @media screen and ( min-width:992px){
+   
+   /* recipe-info */
     .recipe-name::after {
         content:"(Dolce Tradizionale)";
        
@@ -47,4 +54,11 @@
         flex-basis: 35%;
     }
     
-}
+    /* social-networks */
+    .social-networks .label  {  
+        display: inline-block;
+    }
+    .ads{
+        display: block;
+    }
+}   
