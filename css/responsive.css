@@ -17,7 +17,7 @@
         margin: 15px 40px 0 0;  
     }
    
-
+    
 }
 
    /* desk width */  
@@ -27,5 +27,16 @@
         content:"(Dolce Tradizionale)";
        
      }
-
+    .recipe-card{
+        display: flex;
+    }
+    .recipe-video {
+        height: 36vw;
+        flex-basis: 65%;
+        
+    }
+    .recipe-info {
+        flex-basis: 35%;
+    }
+    
 }
