@@ -31,9 +31,21 @@
     .ads{
         display: block;
     }
+
+
+     /* Presentation */
+
+
+     .presentation img {
+        float:left;
+        margin-right:10px ;
+        }
+       
 }
 
-   /* desk width */  
+  
+
+/* desk width */  
 
 @media screen and ( min-width:992px){
    
@@ -61,4 +73,13 @@
     .ads{
         display: block;
     }
-}   
+
+    /* Presentation */
+
+    .presentation img {
+    float:left;
+    margin-right: 10px;
+    }
+
+    
+}  
